@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/%40liip-lausanne%2Feslint-config.svg)](https://badge.fury.io/js/%40liip-lausanne%2Feslint-config)
+[![test](https://github.com/liip-lausanne/eslint-config/actions/workflows/test.yml/badge.svg)](https://github.com/liip-lausanne/eslint-config/actions/workflows/test.yml)
+
 # @liip-lausanne/eslint-config
 
 Liip Lausanne EsLint common configuration (i.e. JavaScript styleguide). This preset should be used with Prettier. See [here](https://liip-lausanne.github.io/coding-standards/javascript/#code-styling) for the detailed setup.
