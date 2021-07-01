@@ -16,7 +16,7 @@ npm i -D @liip-lausanne/eslint-config
 Set your EsLint configuration (.eslintrc.json) to use it:
 
 ```
-"extends": "rawbot"
+"extends": "@liip-lausanne"
 ```
 
 If you don’t have an EsLint config yet, you can generate one using `eslint --init`.
