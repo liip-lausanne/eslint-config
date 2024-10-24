@@ -7,23 +7,31 @@ Liip Lausanne EsLint common configuration (i.e. JavaScript styleguide). This pre
 
 ## Usage
 
-Install the package first.
+Version 2 requires EsLint 9+, if you use an older EsLint version, use the version 1 of this config.
+
+Install the package first:
 
 ```
 npm i -D @liip-lausanne/eslint-config
 ```
 
-Set your EsLint configuration (.eslintrc.json) to use it:
+Load the plugin into your EsLint flat configuration (eslint.config.js):
 
-```
-"extends": "@liip-lausanne"
+```js
+import eslintPluginLiipLausanne from '@liip-lausanne/eslint-config';
+
+export default {
+  // ...
+  eslintPluginLiipLausanne,
+  // ...
+};
 ```
 
 If you don’t have an EsLint config yet, you can generate one using `eslint --init`.
 
 ## Rules
 
-All the rules are defined in [index.js](https://github.com/liip-lausanne/eslint-config/blob/master/index.js).
+All the rules are defined in [index.js](https://github.com/liip-lausanne/eslint-config/blob/main/index.js).
 
 ### Code example
 

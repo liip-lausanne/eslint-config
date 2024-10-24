@@ -1,12 +1,4 @@
-module.exports = {
-  env: {
-    es6: true,
-    browser: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2021,
-    sourceType: 'module',
-  },
+export default {
   rules: {
     // Overall styling
     camelcase: 'error',
