@@ -7,7 +7,7 @@ Liip Lausanne EsLint common configuration (i.e. JavaScript styleguide). This pre
 
 ## Usage
 
-Version 2 requires EsLint 9+, if you use an older EsLint version, use the version 1 of this config.
+Version 2.x works with ESLint 9 and 10; the repo is tested with ESLint 10 and Node.js 24. For the legacy `.eslintrc` format use version 1 of this config.
 
 Install the package first:
 
