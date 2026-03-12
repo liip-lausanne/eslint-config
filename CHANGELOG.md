@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.1.0
+
+- Add support for ESLint 10
+
 ## 2.0.0
 
 - Rewrote to support new EsLint flat configuration format, now requires EsLint 9
